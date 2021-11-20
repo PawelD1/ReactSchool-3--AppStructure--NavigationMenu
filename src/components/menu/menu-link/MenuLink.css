@@ -1,0 +1,26 @@
+.nav-link {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    max-width: 8vw;
+    min-height: 3vh;
+    font-size: x-large;
+    border: 1px solid rgb(219, 183, 189);
+}
+
+.is-active{
+    color:white;
+    background-color: red;
+}
+
+@media screen and (max-width: 1300px) {
+    .nav-link {
+        min-width: 20vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .nav-link {
+        min-width: 25vw;
+    }
+}
